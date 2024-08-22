@@ -36,7 +36,7 @@ if dumping the techset does not work do loadzone techsets_common. That means its
 After that run the "dumpzone techset" command line 
 
 - Creating the CSV
-- 
+  
 Copy your CSV in your "zonetool" folder and paste it in "zone_source" folder
 Open your CSV in notepad or visual studio code and paste the template. I will provide that
 Edit the command line called "mp_template" and replace it as your map name. Make sure nothing is misspelt 
