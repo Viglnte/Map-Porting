@@ -1,0 +1,58 @@
+// map assets (col_map_mp is first to fix possible crashes)
+col_map_mp,maps/mp/mp_template.d3dbsp
+com_map,maps/mp/mp_template.d3dbsp
+gfx_map,maps/mp/mp_template.d3dbsp
+fx_map,maps/mp/mp_template.d3dbsp
+glass_map,maps/mp/mp_template.d3dbsp
+map_ents,maps/mp/mp_template.d3dbsp
+phys_worldmap,maps/mp/mp_template.d3dbsp
+// use mp_vlobby_room aipaths and rename to your map if none
+#aipaths,maps/mp/mp_template.d3dbsp
+
+// netconstrings
+netconststrings,ncs_lsr_level
+netconststrings,ncs_lui_level
+netconststrings,ncs_acl_level
+netconststrings,ncs_fxt_level
+netconststrings,ncs_anm_level
+netconststrings,ncs_hnt_level
+netconststrings,ncs_att_level
+netconststrings,ncs_wep_level
+netconststrings,ncs_sel_level
+netconststrings,ncs_mic_level
+netconststrings,ncs_nps_level
+netconststrings,ncs_hic_level
+netconststrings,ncs_tag_level
+netconststrings,ncs_mnu_level
+netconststrings,ncs_shk_level
+netconststrings,ncs_snl_level
+netconststrings,ncs_sbx_level
+netconststrings,ncs_snd_level
+netconststrings,ncs_loc_level
+netconststrings,ncs_vfx_level
+netconststrings,ncs_veh_level
+netconststrings,ncs_rmb_level
+netconststrings,ncs_mat_level
+netconststrings,ncs_mdl_level
+
+// rawfiles (refer to stock gsc dump for reference)
+#rawfile,vision/mp_template.vision
+
+#rawfile,maps/mp/mp_template.gsc
+#rawfile,maps/mp/mp_template_fx.gsc
+#rawfile,maps/mp/mp_template_precache.gsc
+
+#rawfile,maps/createfx/mp_template_fx.gsc
+
+#rawfile,maps/createart/mp_template_art.gsc
+#rawfile,maps/createart/mp_template_fog.gsc
+#rawfile,maps/createart/mp_template_fog_hdr.gsc
+
+// compass image
+material,compass_map_mp_template
+
+// iterator
+#iterate,xmodel
+#iterate,xanim
+#iterate,fx
+iterate,true
