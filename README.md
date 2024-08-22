@@ -35,13 +35,15 @@ If you cannot find the last techset right click at the codes and press clear all
 if dumping the techset does not work do loadzone techsets_common. That means its a singleplayer techset 
 After that run the "dumpzone techset" command line 
 
-- Creating the CSV 
+- Creating the CSV
+- 
 Copy your CSV in your "zonetool" folder and paste it in "zone_source" folder
 Open your CSV in notepad or visual studio code and paste the template. I will provide that
 Edit the command line called "mp_template" and replace it as your map name. Make sure nothing is misspelt 
 Save the file and your CSV is created 
 
 - How to make the zone tools work
+- 
 You will need the zonetool exe and zonetool.dll from H1 and IW4X. I will provide those
 Drag and drop the H1 zone tool and zone tool.dll into MWR directory 
 Drag and drop the IW5 zone tool and zonetool.dll into the MW3 directory
